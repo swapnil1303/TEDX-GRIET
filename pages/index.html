@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEDX GRIET</title>
+    <link rel="stylesheet" href="/styles/style_index.css">
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+                <a href="/pages/index.html"><h3><span style="color: red;">TED<sup>x</sup></span> GRIET</h3></a>
+            </div>
+            <div class="routes">
+                <a href="/pages/index.html">Home</a>
+                <a href="/pages/about.html">About</a>
+                <a href="/pages/seasons.html">Seasons</a>
+                <a href="/pages/team.html">Team</a>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="main-container">
+            <div class="left-container">
+                <div class="content-left" style="top: 30%;">
+                    <span><h4>We believe in </h4></span>
+                    <span id="element1"></span>
+                </div>
+                <div class="content-left" style="top:60%">
+                    <span><h4>We Work for </h4></span>
+                    <span id="element2"></span>
+                </div>
+            </div>
+            <div class="right-container">
+                right
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element1', {
+          strings: ['PASSION', 'CREATIVITY','HONESTY','GROWTH','TRUTH','&amp; SUCCESS..'],
+          typeSpeed: 100,
+        });
+        var typed = new Typed('#element2', {
+          strings: ['MONEY1', 'MONEY2','MONEY3','MONEY4','MONEY5','&amp; MONEY..'],
+          typeSpeed: 100,
+        });
+      </script>
+</body>
+</html>
