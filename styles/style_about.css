@@ -57,12 +57,15 @@ body {
   background-size: fill;
   background-position: center;
 }
+.hero-container{
+  height: fit-content;
+}
 .main-container{
   display: flex;
   justify-content: space-around;
   padding:0px 0px;
   color:white;
-  height: 85vh;
+  height: fit-content;
   flex-wrap: wrap;
   align-items:normal;
   margin-top:10px
@@ -98,4 +101,43 @@ body {
 .article .msg{
   font-size: 25px;
   padding: 10px;
+}
+/* footer */
+footer{
+  margin-top:20px;
+  background-color: black;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  /* border:2px solid white; */
+}
+.logo-footer{
+  margin-top:20px;
+  text-align: center;
+  /* border:2px solid white; */
+}
+.logo-footer a{
+  font-size: 30px;
+  text-decoration: none;
+  color:white;
+}
+.social-media{
+  margin-top:30px;
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  /* border:2px solid white; */
+
+}
+.handle a{
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  display: flex;
+  flex-direction: column;
+}
+.icons{
+  font-size: 30px;
 }
