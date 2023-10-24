@@ -57,7 +57,7 @@
 
 /* Body */
 .hero-container{
-    background-image:url(/images/bg.png) ;
+    background-image:url(../images/bg.png) ;
     background-size: fill;
     background-position: center;
 }
