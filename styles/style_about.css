@@ -104,13 +104,13 @@ body {
 }
 /* footer */
 footer{
-  margin-top:20px;
+  /* margin-top:20px; */
   background-color: black;
-  height: 200px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: space-evenly; */
+  /* justify-content: space-between; */
   /* border:2px solid white; */
 }
 .logo-footer{
@@ -147,4 +147,5 @@ footer{
 .salutation p{
   color:white;
   text-align: center;
+  padding:0px 10px;
 }
