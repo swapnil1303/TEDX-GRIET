@@ -69,14 +69,16 @@ body {
   background-position: center;
 }
 .hero-container{
-    background-image:url(images/bg.png) ;
+    /* background-image:url(images/bg.png) ;
     background-size: fill;
-    background-position: center;
+    background-position: center; */
+    height: fit-content;
 }
 .main-container{
     display: flex;
     justify-content: space-around;
     padding:0px 0px;
+    height: fit-content;
     color:white;
     height: 85vh;
     flex-wrap: wrap;
