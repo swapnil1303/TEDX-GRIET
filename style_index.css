@@ -139,6 +139,9 @@ footer{
   display: flex;
   flex-direction: column;
 }
+.handle span{
+  padding:0px 10px;
+}
 .icons{
   font-size: 30px;
 }
