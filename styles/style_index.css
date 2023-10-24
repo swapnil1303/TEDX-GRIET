@@ -142,3 +142,10 @@ footer{
 .icons{
   font-size: 30px;
 }
+.salutation{
+  margin-top:30px;
+}
+.salutation p{
+  color:white;
+  text-align: center;
+}
