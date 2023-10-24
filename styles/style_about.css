@@ -53,7 +53,7 @@
   transition-property: all;
 }
 body {
-  background-image: url(/images/bg.png);
+  background-image: url(../images/bg.png);
   background-size: fill;
   background-position: center;
 }
